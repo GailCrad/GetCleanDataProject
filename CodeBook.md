@@ -1,33 +1,32 @@
-#Codebook for Project Data:
-## project_final.txt
+##Codebook for Project Data:
+### project_final.txt
 
 
-subject  2   integer 
-   Subject number that identifies a person participating in the study
+	*subject*  2   integer 
+   	Subject number that identifies a person participating in the study
    	1-30
 
-activity 19  character
-    Activity performed by Subject in the study in which basic measurements are collected
-    
+	*activity* 19  character
+    	Activity performed by Subject in the study in which basic measurements are collected
+    	
 	WALKING
 
-    	WALKING_UPSTAIRS
- 
-    	WALKING_DOWNSTAIRS
-    
+	WALKING_UPSTAIRS
+
+	WALKING_DOWNSTAIRS
 	SITTING
 
-    	STANDING
-    	LAYING 
+	STANDING
+	LAYING 
 
-variable character
-    Name of the measurement taken for this experiment. Names were slightly modified from the original for readability and use as a variable name, if desired.
-    The features come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. 
-    These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 
-    3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal 
-    was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter 
-    with a corner frequency of 0.3 Hz. 
-    (for more complete information see the file feature.txt and feature_info.text)
+	*variable* character
+   	Name of the measurement taken for this experiment. Names were slightly modified from the original for readability and use as a variable name, if desired.
+   	The features come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. 
+    	These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 
+    	3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal 
+    	was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter 
+    	with a corner frequency of 0.3 Hz. 
+    	(for more complete information see the file feature.txt and feature_info.text)
      
 	tBodyAcc.mean.X    
 	tBodyAcc.mean.Y    
@@ -109,8 +108,8 @@ variable character
 	fBodyBodyGyroJerkMag.std. 
 	fBodyBodyGyroJerkMag.meanFreq. 
 
-value   numeric
-    The value of the variable in column 3 is a mean of all the measurements taken for each subject and activity and variable named in the current row of data
+	*value*   numeric
+ 	The value of the variable in column 3 is a mean of all the measurements taken for each subject and activity and variable named in the current row of data
 
 
     

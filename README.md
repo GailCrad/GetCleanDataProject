@@ -1,10 +1,10 @@
-# GetCleanDataProject
-##Coursera Getting and Cleaning Data Course Project
-## Programmer: SG Craddock
-## Date project due: 26-Apr-2015
+## GetCleanDataProject
+Coursera Getting and Cleaning Data Course Project
+Programmer: SG Craddock
+Date project due: 26-Apr-2015
 
 
-#Instructions for the Project assignment were as follows:
+Instructions for the Project assignment were as follows:
 
 Create one R script called *run_analysis.R* that does the following. 
 1.Merges the training and the test sets to create one data set.
@@ -17,7 +17,7 @@ Here are the data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-#-------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
 
 When these data are downloaded and unzipped they appear in a file folder UCI HAR Dataset. The structure and location of the R code and data
 are as follows:
@@ -32,6 +32,4 @@ There are documentation files in the main folder and 3 datasets in each subfolde
 My code is self-documenting and is named
       run_analysis.R
 
-
-
-#-------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
